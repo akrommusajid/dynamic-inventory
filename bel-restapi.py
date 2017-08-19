@@ -4,7 +4,7 @@ import pymysql
 import json
 
 #Open database connection
-db = pymysql.connect("localhost","netdatanms","Netd4t@2017","netdatanms")
+db = pymysql.connect("localhost","username","password","database")
 
 #Database cursor
 cursor = db.cursor()
